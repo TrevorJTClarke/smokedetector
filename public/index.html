@@ -1,0 +1,28 @@
+<DOCTYPE html>
+<html>
+<head>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.min.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+  <h1>Dashboard <small><sup id="connection"></sup></small></h1>
+  <hr>
+  <div class="cards">
+    <div class="card">
+      <h3>Current Temperature</h3>
+      <p>
+        F:<strong id="tempFarenheit">0</strong>
+      </p>
+      <p>
+        C:<strong id="tempCelsius">0</strong>
+      </p>
+    </div>
+    <div class="card">
+      <h3>Current Humidity</h3>
+      <p>
+        Relative Humidity:<strong id="relHum">0</strong>
+      </p>
+    </div>
+  </div>
+</body>
+</html>
